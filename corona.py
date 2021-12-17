@@ -1,4 +1,4 @@
-from Hospitals.hospital import Hospital
+import Hospital
 
 
 class CoronaHospital(Hospital):
