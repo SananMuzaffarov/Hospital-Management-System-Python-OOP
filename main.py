@@ -1,27 +1,27 @@
 import charachter
-from CampaignBranches import ophthalmology
-from CampaignBranches import pediatrics
-from Hospitals import army
-from Hospitals import corona
-from Hospitals import private
-from Hospitals import government
+import ophthalmology
+import pediatrics
+import army
+import corona
+import private
+import government
 import client
-from Branches import cardiology
-from Branches import oncology
-from Branches import physiotherapy
-from Branches import gynecology
-from Branches import burncenter
-from Branches import diabetes
-from Branches import orthopedics
-from Branches import pathology
-from Branches import surgery
-from Branches import rehabilitation
-from CampaignBranches import transfusion
-from CampaignBranches import traumatology
-from Branches import urology
-from Branches import stomatology
+import cardiology
+import oncology
+import physiotherapy
+import gynecology
+import burncenter
+import diabetes
+import orthopedics
+import pathology
+import surgery
+import rehabilitation
+import transfusion
+import traumatology
+import urology
+import stomatology
 import ClientMoney
-from CampaignBranches import neonatology
+import neonatology
 
 print("Please choose that who you are, Doctor or Client,if you are doctor, please type 1.")
 person = charachter.Person()
@@ -35,7 +35,7 @@ else:
 print("-------------------------------------------------------------------------------")
 
 Sinan = client.Client()
-Sinan.register("SananM", "123!", "smuzaffarov1@gmail.com", "0503961514")
+Sinan.register("SananM", "123!", "smuzefferov1@gmail.com", "0503961514")
 Sinan.login("SananM", "123!")
 Private = private.PrivateHospital("Baku", 120, 30, 10)
 Government = government.GovernmentHospital("Baku", 200, 50, 90)
